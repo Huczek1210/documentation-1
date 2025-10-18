@@ -17,7 +17,7 @@ keywords:
 - Enterprise NAS storage
 ---
 
-Users of TrueNAS 24.04 (Dragonfish) or newer can migrate data from a third-party NAS solution onto TrueNAS using the [Syncthing Enterprise application]({{< relref "/content/TruenasApps/enterpriseapps/syncthing.md" >}}).
+Users of TrueNAS 24.04 (Dragonfish) or newer can migrate data from a third-party NAS solution onto TrueNAS using the [Syncthing Enterprise application](https://apps.truenas.com/catalog/syncthing_enterprise/).
 The Syncthing Enterprise application can mount remote SMB shares in a manner that preserves relevant metadata.
 TrueNAS 24.10 (Electric Eel) also adds migration support for SMB alternate data streams (ADS), used to store application-specific metadata.
 
@@ -27,10 +27,10 @@ TrueNAS 24.10 (Electric Eel) also adds migration support for SMB alternate data 
 
 {{< enterprise >}}
 Third-party data ingest is available to TrueNAS Enterprise customers with TrueNAS 24.04 (Dragonfish) and newer deployed, as well as the appropriate applications license.
-iXsystems Support staff are available to assist with deploying the Syncthing Enterprise Application and migrating data.
-Please contact iXsystems Support to learn more and schedule a time to deploy the app and begin migration.
+TrueNAS Enterprise Support staff are available to assist with deploying the Syncthing Enterprise Application and migrating data.
+Please contact TrueNAS Enterprise Support to learn more and schedule a time to deploy the app and begin migration.
 
-{{< expand "Contacting iXsystems Support" "v" >}}
+{{< expand "Contacting TrueNAS Enterprise Support" "v" >}}
 {{< include file="/static/includes/iXsystemsSupportContact.md" >}}
 {{< /expand >}}
 {{< /enterprise >}}
@@ -91,7 +91,7 @@ The process of setting up data migration from an external NAS to TrueNAS consist
 
     c. Accept the defaults in **Version**, **Syncthing Configuration**, and **User and Group Configuration**.
 
-    d. Deselect **Host Network** under **Network Configuration**. Default ports can be used for this Syncthing instance.
+    d. Disable **Host Network** under **Network Configuration**. Default ports can be used for this Syncthing instance.
 
     e. Select **ixVolume (Dataset created automatically by the system)** or configure an existing host path for **Syncthing Home Storage** under **Storage Configuration**.
 
@@ -139,7 +139,7 @@ The process of setting up data migration from an external NAS to TrueNAS consist
 
    Enter a clear identifying name, such as *INGEST*, and click **Save**.
 
-3. [Create a new dataset]({{< relref "datasetsscale.md" >}}) on TrueNAS to be the target for the data ingest, for example, */mnt/tank/ingest*.
+3. [Create a new dataset]({{< ref "datasetsscale" >}}) on TrueNAS to be the target for the data ingest, for example, */mnt/tank/ingest*.
 
     Click **Advanced Options** and set **ACL Type** to **SMB/NFSv4**.
     Set **ACL Mode** to **Restricted**.
@@ -153,7 +153,7 @@ The process of setting up data migration from an external NAS to TrueNAS consist
 
     c. Accept the defaults in **Version**, **Syncthing Configuration**, and **User and Group Configuration**.
 
-    d. Deselect **Host Network** under **Network Configuration**.
+    d. Disable **Host Network** under **Network Configuration**.
     Use non-default ports for this Syncthing instance that differ from the configured ports on the first instance.
 
     e. Select **ixVolume (Dataset created automatically by the system)** or configure an existing host path for **Syncthing Home Storage** under **Storage Configuration**.

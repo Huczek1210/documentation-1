@@ -19,18 +19,18 @@ keywords:
 
 {{< include file="/static/includes/SnapshotsIntroSnippet.md" >}}
 
-Taking snapshots requires the system have all [pools]({{< relref "CreatePoolWizard.md" >}}), [datasets]({{< relref "DatasetsScale.md" >}}), and [zvols]({{< relref "AddManageZvols.md" >}}) already configured.
+Taking snapshots requires the system have all [pools]({{< ref "CreatePoolWizard" >}}), [datasets]({{< ref "DatasetsScale" >}}), and [zvols]({{< ref "AddManageZvols" >}}) already configured.
 
 ## Creating a Snapshot
 
 {{< hint type=note >}}
-Consider making a [Periodic Snapshot Task]({{< relref "PeriodicSnapshotTasksScreensSCALE.md" >}}) to save time and create regular, fresh snapshots.
+Consider making a [Periodic Snapshot Task]({{< ref "PeriodicSnapshotTasksScreensSCALE" >}}) to save time and create regular, fresh snapshots.
 {{< /hint >}}
 
 There are two ways to access snapshot creation:
 
 ### From the Data Protection Screen
-To access the **Snapshots** screen, go to **Data Protection** > **Periodic Snapshot Tasks** and click the **Snapshots** button in the lower right corner of the widget.
+To access the **Snapshots** screen, go to **Data Protection** > **Periodic Snapshot Tasks** and click the **Snapshots** button in the lower left corner of the widget.
 
 {{< trueimage src="/images/SCALE/DataProtection/DataProtectSnapshotTasksSCALE.png" alt="Create a New Snapshot" id="Create a New Snapshot" >}}
 

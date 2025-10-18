@@ -33,7 +33,7 @@ The **Kerberos Realms** screen displays a list view of realms configured on your
 
 **Actions** includes the option to **Add** a new realm. **Add** opens the **Add Kerberos Realm** screen.
 
-The <span class="material-icons">more_vert</span> button opens the actions options for the selected realm. Options are **Edit** which opens the **Edit Kerberos Realm** screen for the selected realm, and **Delete** that opens a delete confirmation dialog.
+The <i class="material-icons" aria-hidden="true" title="Configure">edit</i> button opens the **Edit Kerberos Realm** screen for the selected realm. The <i class="material-icons" aria-hidden="true" title="Delete">delete</i> button opens a delete confirmation dialog for the Kerberos realm.
 
 {{<include file="/static/includes/addcolumnorganizer.md">}}
 
@@ -49,6 +49,7 @@ The settings found on the **Add Kerberos Realm** and **Edit Kerberos Realm** scr
 |---------|-------|
 | **Realm** | (Required) Enter the name of the realm as a domain name, For example, *example.com*. AD configured TrueNAS systems pre-populate this field with the required information. |
 | **KDC** | Enter the name of the Key Distribution Center (KDC).The KDC acts as as the third-party authentication service for Kerberos. Separate multiple values by pressing <kbd>Enter</kbd>. For example, *kdc1.example.com* press <kbd>Enter</kbd> then *kdc2.example.com*. |
+| **Primary KDC** | Specifies the primary Key Distribution Center(KDC) for the realm. The Kerberos client uses this KDC when acquiring credentials if the current KDC fails with a bad password error. This is valuable for domains with hub-and-spoke topology where password changes slowly propagate from the hub to the spoke. |
 | **Admin Server** | Define the server that performs all database changes. Separate multiple values by pressing <kbd>Enter</kbd>. |
 | **Password Server** | Define the server that performs all password changes. Separate multiple values by pressing <kbd>Enter</kbd>. |
 {{< /truetable >}}

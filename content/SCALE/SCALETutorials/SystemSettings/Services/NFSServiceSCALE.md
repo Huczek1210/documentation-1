@@ -51,7 +51,9 @@ This can support more than 16 groups and provide more accurate group memberships
 It is equivalent to setting the `--manage-gids` flag for [rpc.mountd](https://linux.die.net/man/8/rpc.mountd).
 This setting assumes group membership is configured correctly on the NFS server.
 
+{{< include file="/static/includes/NFSUpdateTime.md" >}}
+
 Click **Save**.
 
 Start the NFS service.
-When TrueNAS is already connected to [Active Directory]({{< relref "/SCALE/SCALEUIReference/Credentials/DirectoryServices/_index.md" >}}), setting **NFSv4** and **Require Kerberos for NFSv4** also requires a [Kerberos Keytab]({{< relref "/SCALE/SCALEUIReference/Credentials/DirectoryServices/_index.md" >}}).
+When TrueNAS is already connected to [Active Directory]({{< ref "/SCALE/SCALEUIReference/Credentials/DirectoryServices" >}}), setting **NFSv4** and **Require Kerberos for NFSv4** also requires a [Kerberos Keytab]({{< ref "/SCALE/SCALEUIReference/Credentials/DirectoryServices" >}}).

@@ -7,7 +7,8 @@ aliases:
  - /hardware/rseries/rseriesbsg/
  - /hardware/rseries/rseriesoobm/
  - /hardware/rseries/rseriessov/
- - /images/Hardware/R40R50Front.png
+ - /files/R50BMPUM.pdf
+ - /files/r50bsg3.0.pdf
 keyword:
  - enterprise storage solution
  - scalable storage systems
@@ -30,14 +31,11 @@ Visit the [R Series product page](https://www.truenas.com/r-series/) for more de
 
 <div class="docs-sections">
 
-{{< imagecard image="/images/Hardware/RSeries/RSeriesBSG.png" title="Basic Setup Guide" link="https://www.truenas.com/docs/files/RSeriesBSG1.32.pdf"
-descr="Deployment guide for TrueNAS R10, R20, R40, and R50 systems." >}}
+{{< imagecard image="/images/Hardware/RSeries/R20PUM.png" title="R20 User Manual" link="https://www.truenas.com/docs/files/R20PUM.pdf"
+descr="User Manual for the TrueNAS R20." >}}
 
-{{< imagecard image="/images/Hardware/RSeries/R30BSG.png" title="R30 Basic Setup Guide" link="https://www.truenas.com/docs/files/R30BSG1.0.pdf"
-descr="Deployment Guide for TrueNAS R30 systems." >}}
-
-{{< imagecard image="/images/Hardware/RSeries/R50BSG.png" title="R50 Basic Setup Guide" link="https://www.truenas.com/docs/files/R50BSG3.0.pdf"
-descr="Deployment Guide for 3rd Generation TrueNAS R50 systems." >}}
+{{< imagecard image="/images/Hardware/RSeries/R50BMPUM.png" title="R50 User Manual" link="https://www.truenas.com/docs/files/R50PUM.pdf"
+descr="User Manual for the TrueNAS R50." >}}
 
 {{< imagecard image="/images/Hardware/NetworkPortID.png" title="Network Port IDs" link="https://www.truenas.com/docs/files/RSeriesNetworkPortIDs.pdf"
 descr="Identifications list of TrueNAS R-Series systems network ports." >}}
@@ -45,7 +43,7 @@ descr="Identifications list of TrueNAS R-Series systems network ports." >}}
 {{< imagecard image="/images/Hardware/RSeries/RSeriesOOBM.png" title="Out-of-Band Management" link="https://www.truenas.com/docs/files/RSeriesOOBM1.1.pdf"
 descr="BIOS configuration instructions for TrueNAS R-Series systems." >}}
 
-{{< imagecard image="/images/Hardware/RSeries/RSeriesStencil.png" title="Hardware Stencils" link="https://www.truenas.com/docs/files/truenasrmodels.vssx"
+{{< imagecard image="/images/Hardware/RSeries/RSeriesStencil.png" title="Hardware Stencils" link="https://www.truenas.com/docs/files/truenasrseriesstencilpack.vssx"
 descr="Download R-Series stencils to diagram your TrueNAS hardware configuration." >}}
 
 {{< imagecard image="/images/Hardware/RSeries/R20BSOV.png" title="R20B Statement of Volatility" link="https://www.truenas.com/docs/files/R20BSOV.pdf"

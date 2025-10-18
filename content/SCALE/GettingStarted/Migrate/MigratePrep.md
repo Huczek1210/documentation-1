@@ -14,6 +14,8 @@ keywords:
 
 {{< include file="/static/includes/MigrateCOREtoSCALEWarning.md" >}}
 
+{{< include file="/static/includes/MigrateCOREtoSCALE24_04.md" >}}
+
 ## What can or cannot migrate?
 
 {{< include file="/static/includes/COREMigratesList.md" >}}
@@ -22,20 +24,22 @@ keywords:
 Read this article before you attempt to migrate your FreeBSD-based system to a Linux-based TrueNAS version.
 {{< hint type="warning" title="Using USB Devices for Backups" >}}
 We strongly recommend not using USB flash drives or USB-attached drives for backups as these can have issues, including with recovering backed-up files.
-For more information on using USB drives and devices in general, read the [Hardware Guide]({{< relref "scalehardwareguide.md" >}}).
+For more information on using USB drives and devices in general, read the [Hardware Guide]({{< ref "scalehardwareguide" >}}).
 If you must use a USB-type device, verify you can access files on the device before you migrate.
 {{< /hint >}}
 {{< enterprise >}}
-Enterprise customers are encouraged to contact Support for assistance with the process of moving from a FreeBSD-based (13.3 or earlier) to a Linux-based (22.12 or newer) TrueNAS version, especially customers with HA systems.
+We strongly encourage Enterprise customers to contact Support for assistance moving from a FreeBSD-based (13.3 or earlier) to a Linux-based (22.12 or newer) TrueNAS version, especially customers with HA systems using iSCSI shares or fibre channel. Enterprise customers should not attempt to migrate their HA systems with iSCSI or fibre channel on their own!
+Enterprise systems with iSCSI and fibre channel deployments require complex, special preparation and migration steps executed before and after migration to ensure data integrity.
+Please contact Support for assistance!
 {{< /enterprise >}}
 
 1. Upgrade your system to either the latest 13.0 or 13.3 release.
-   TrueNAS Enterprise-licensed (or community systems that haven't switched to 13.3) systems on 12.0x or earlier should upgrade to the latest 13.0 release (e.g. 13.0-U6.2 or newer) before migration.
-   Community users with 13.3 installed should update to the latest maintenance release of that version prior to migration.
+   TrueNAS Enterprise-licensed (or community systems that haven't switched to 13.3) systems on 12.0x or earlier should upgrade to the latest 13.0 release before migration.
+   Community users with 13.3 installed should update to the latest maintenance release of that version before migration.
    Either major version can use the [iso upgrade](#migrating-using-an-iso-file-to-upgrade) method for migration.
 
 2. Migrate [GELI-encrypted pools](https://www.truenas.com/docs/core/13.0/coretutorials/storage/pools/storageencryption/#geli-pool-migrations) to a non-GELI-encrypted pool before upgrading from TrueNAS 12.0x or earlier releases!
-   If you do not migrate from GELI to ZFS encryption before upgrading to 13.0-U6.2 (or newer) or migrating to TrueNAS 24.04, you permanently lose access to the data in the GELI encrypted pool(s).
+   If you do not migrate from GELI to ZFS encryption before upgrading to 13.0-U6.2 (or newer) or migrating to TrueNAS 24.04 (or newer), you permanently lose access to the data in the GELI encrypted pool(s).
 
 3. Verify the root user is not locked.
    Go to **Accounts > Users**, select the root user, and click **Edit** to view current settings and confirm **Lock User** is not selected.
@@ -56,6 +60,8 @@ Enterprise customers are encouraged to contact Support for assistance with the p
 
    <input type="checkbox"> Usernames beginning with (0-9) - Review local user account names and rename or replace these with a letter or underscore before migrating.
 
+   <input type="checkbox"> User-created accounts with UID or GID less than 1000 - The UID/GID range below 1000 are reserved for built-in system accounts. User-created accounts in this ID range can cause conflicts and undefined behavior after migration, including duplicate accounts with the same ID. Recreate any non-builtin accounts in this range to assign an ID of 1000 or higher, then delete the previous account and reconfigure ACLs as needed before migrating.
+
    <input type="checkbox"> Tunables - Linux-based TrueNAS (22.12 or newer) does not use **Tunables** in the same way. Copy script configurations to add on the **System > Advanced Settings** screen, using the **Sysctl** widget, after migrating.
 
    <input type="checkbox"> Init/shutdown scripts - If using init/shutdown scripts, copy them or take a screenshot to add them after migrating.
@@ -68,6 +74,12 @@ Enterprise customers are encouraged to contact Support for assistance with the p
 
    <input type="checkbox"> Data protection tasks - Write down or take screenshots of replication, periodic snapshots, cloud sync, or other task settings to reconfigure these after migrating.
 
+   Community users with iSCSI deployments can migrate their systems without assistance. Note, unlike FreeBSD systems, Linux Debian systems require at least one LUN set to zero.
+   iSCSI portals in Linux Debian-based systems are defined globally instead of per port.
+
+   Enterprise systems with iSCSI shares and/or fibre channel deployments have special requirements, preparation, and migration steps to ensure data integrity and a smooth migration.
+   Other iSCSI differences only apply to Enterprise High Availability (HA) systems and those with fibre channel ports. Enterprise users **must** contact TrueNAS Customer Support for assistance with their migrations!
+
 5. Remove all SMB auxiliary parameter settings before migrating.
    In TrueNAS 23.10 (Cobia) or newer, the SMB **Auxiliary Parameters** option is unavailable in the UI.
    Attempting to migrate with these settings can result in broken SMB shares post-upgrade that require CLI access to fix.
@@ -77,7 +89,7 @@ Enterprise customers are encouraged to contact Support for assistance with the p
 
    FreeBSD and Linux use different nomenclature for network interfaces, bridges, LAGGs, and VLANs.
    Because of the difference, network settings can either get lost or not transfer which means you have no network connectivity.
-   See [Component Naming]({{< relref "ComponentNaming.md" >}}) for more information.
+   See [Component Naming]({{< ref "ComponentNaming" >}}) for more information.
 
    When using a TrueNAS Enterprise system from iXsystems, refer to the network port ID manuals of your [TrueNAS Systems](https://www.truenas.com/docs/hardware/) to find the network port assignments in TrueNAS.
    When using custom hardware for TrueNAS, refer to the manual or documentation provided with your system or locate this information on your server hardware and take note of it.
@@ -100,18 +112,18 @@ These features require careful configuration to avoid data corruption or loss of
 {{< /enterprise>}}
 
 After completing the steps listed above that apply to your existing system, download the latest [TrueNAS ISO file](https://www.truenas.com/download-tn-scale/) and save it to your computer.
-See [Software Releases]({{< relref "TrueNASUpgrades/_index.md #upgrade-paths" >}}) for currently recommended update paths to make sure you download and migrate to and from the correct TrueNAS versions.
-Burn the iso to a USB drive (see [**Installing on Physical Hardware**]({{< relref "InstallingSCALE.md#installing-on-physical-hardware" >}})) when upgrading a physical system.
+See [Software Releases]({{< ref "TrueNASUpgrades/#upgrade-paths" >}}) for currently recommended update paths to make sure you download and migrate to and from the correct TrueNAS versions.
+Burn the iso to a USB drive (see [**Installing on Physical Hardware**]({{< ref "InstallingSCALE.md#installing-on-physical-hardware" >}})) when upgrading a physical system.
 
 ## Deprecated Services
 The built-in services listed in this section are available in 13.0 but deprecated in 22.12.3 (Bluefin) and removed in later TrueNAS releases.
-They require attention before attempting to migrate to 24.04.
+They require attention before attempting to migrate to 24.04 or later.
 
-Each of the sections has information that can help you determine the best steps forward to secure any critical data before attempting to migrate from 13.0 to 24.04.
+Each of the sections has information that can help you determine the best steps forward to secure any critical data before attempting to migrate.
 They provide details on transitioning from that service to an application with the functionality of the deprecated service.
 
-TrueNAS has [apps]({{< relref "/content/TruenasApps/_index.md" >}}) you can deploy as replacements for these services.
-24.04 provides the option to force an upgrade without converting deprecated services to apps.
+TrueNAS has [apps](https://apps.truenas.com/) you can deploy as replacements for these services.
+TrueNAS provides the option to force an upgrade without converting deprecated services to apps.
 The force option is not recommended for the S3 service as forcing the upgrade results in losing access to and the ability to recover the MinIO S3 data.
 
 See [Bluefin Deprecated Services](https://www.truenas.com/docs/scale/22.12/gettingstarted/scaledeprecatedfeatures/) for more information.
@@ -162,10 +174,10 @@ Disable both the WebDAV share and service.
 Also disable the **Start Automatically** option to prevent the service from re-enabling after a system restart.
 
 Review any existing WebDAV service authentication settings.
-Take note of all IP addresses, port numbers, URLs and credentials (username and password).
+Take note of all IP addresses, port numbers, URLs, and credentials (username and password).
 
 Remove any existing WebDAV shares. Go to **Shares > WebDAV** and use **Edit** to view any existing configurations.
-Take note of the share name, path, and read only settings. Delete the WebDAV share configuration.
+Take note of the share name, path, and read-only settings. Delete the WebDAV share configuration.
 
 In Bluefin:
 To grant access to a specific user (and group) other than using the default admin user UID and GID, add a new non-root administrative user for the share(s).

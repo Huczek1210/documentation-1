@@ -12,14 +12,14 @@ keywords:
 This section provides instructions for users that are configuring TrueNAS for the first time.
 
 {{< enterprise >}}
-TrueNAS Enterprise customers should contact iXsystems Support for assistance with the initial set up and configuration of their systems.
+TrueNAS Enterprise customers should contact TrueNAS Enterprise Support for assistance with the initial set up and configuration of their systems.
 
-{{< expand "Contacting iX Support" >}}
+{{< expand "Contacting TrueNAS Enterprise Support" >}}
 {{< include file="/static/includes/iXsystemsSupportContact.md" >}}
 {{< /expand >}}
 {{< /enterprise >}}
 
-After completing the installation process, you can either use the [Console setup menu]({{< relref "ConsoleSetupMenuSCALE.md" >}}) to reconfigure the primary network interface with a static IP address or use the TrueNAS UI to make network changes and complete the initial configuration.
+After completing the installation process, you can either use the [Console setup menu]({{< ref "ConsoleSetupMenuSCALE" >}}) to reconfigure the primary network interface with a static IP address or use the TrueNAS UI to make network changes and complete the initial configuration.
 
 Configuring your system includes:
 

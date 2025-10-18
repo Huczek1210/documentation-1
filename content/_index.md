@@ -2,6 +2,11 @@
 title: "Documentation Hub"
 description: "Home page for the TrueNAS documentation projects."
 geekdocCollapseSection: true
+aliases:
+ - /core/system/support/
+ - /core/network/networksummary/
+ - /core/directoryservices/ldap/
+ - /core/13.3.0/
 main_index_class: main-index-page
 ---
 <style>
@@ -14,13 +19,18 @@ h1 {display:none;}
 <h2> Welcome to the TrueNAS Documentation Hub! </h2>
 
 This website is a repository of all documentation for TrueNAS projects and related products.<br>
-iXsystems employees maintain this documentation and provide regular updates.
+The TrueNAS team maintains this documentation alongside direct contributions from the TrueNAS community.
 All documentation is open-source and accepts community contributions!
 
 Use the **Product** and **Version** dropdowns above or the cards below to access up to date latest documentation for your selected version.<br>
 While browsing, switch to a different version of the same product to see the corresponding article for that version.
 
-{{< section-cards >}}
+Use the TrueNAS AI Search below or on the left sidebar to ask questions about TrueNAS.
+
+<div style="padding-top: 6px; padding-bottom: 1px; border-radius: 15px; overflow: hidden; background-color: white; width: 94%;">
+    <iframe src="https://docsbot.ai/iframe/c6l7vGyugnoP9SSSoNXy/h6qDF4J2h3xfHKO9Nm6r" 
+        width="100%" height="400" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+</div>
 
 <div class="latest-development-container" style="padding-top: 20px;">
   <div style="display: flex; align-items: center;">
@@ -36,13 +46,15 @@ While browsing, switch to a different version of the same product to see the cor
     <i class="fas fa-archive fa-lg" style="color: #0095d5; padding-right: .75rem; max-width: 45px; max-height: 45px; align-self: flex-start;" title="Historical Documentation" aria-label="Archive Icon"></i>
     <h3 style="margin: 0;">Historical Documentation</h3>
   </div>
-  <p>iXsystems employees maintain this documentation and provide regular updates for current and in development (future) versions of TrueNAS software.
+  <p>The TrueNAS team maintains this documentation and provide regular updates for current and in development (future) versions of TrueNAS software.
   For documentation purposes, current and future releases are those recommended by the TrueNAS <a href="https://www.truenas.com/software-status/">Software Status page</a> for one or more user type.</p>
   <p>Documentation for previous releases, that are no longer recommended for any user type, is archived and unmaintained.</p>
   <p>To view documentation for past versions of TrueNAS software products, visit the <a href="/archive/">Documentation Archive</a>.</p>
 </div>
 
 <h2> Additional Content </h2>
+
+{{< include file="/static/includes/apps/AppsMarket.md" >}}
 
 Interested in contributing to the TrueNAS projects or documentation or want to learn more about the technologies TrueNAS uses?
 See these additional content areas:

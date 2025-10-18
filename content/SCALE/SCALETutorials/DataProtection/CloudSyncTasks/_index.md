@@ -5,7 +5,6 @@ geekdocCollapseSection: true
 aliases:
  - /scale/scaletutorials/dataprotection/cloudsynctasks/addcloudsynctasks/
  - /scale/scaleclireference/task/cloudsync/
- - /images/CORE/12.0/TasksCloudSyncAdd.png
 weight: 20
 tags:
  - cloud
@@ -34,11 +33,11 @@ iXsystems is not responsible for any charges incurred using third-party vendors 
 
 ## Cloud Sync Task Requirements
 You must have:
-* All system [storage]({{< relref "/SCALE/SCALETutorials/Storage/_index.md" >}}) configured and ready to receive or send data.
+* All system [storage]({{< ref "/SCALE/SCALETutorials/Storage" >}}) configured and ready to receive or send data.
 A cloud storage provider account and location (like an Amazon S3 bucket).
 
 You can create cloud storage account credentials using **Credentials > Backup Credentials > Cloud Credentials** before adding the sync task or add it when configuring the cloud sync task using **Add** on the **Data Protection > Cloud Sync Task** widget to open the **Cloudsync Task Wizard**.
-See the [Cloud Credentials]({{< relref "/SCALE/SCALETutorials/Credentials/BackupCredentials/AddCloudCredentials.md" >}}) article for instructions on adding a backup cloud credential.
+See the [Cloud Credentials]({{< ref "/SCALE/SCALETutorials/Credentials/BackupCredentials/AddCloudCredentials" >}}) article for instructions on adding a backup cloud credential.
 
 ## Creating a Cloud Sync Task
 
@@ -99,7 +98,7 @@ Stopping an in-progress task cancels the file transfer and requires starting the
 To view logs about a running task, or its most recent run, click on the **State** oval.
 
 ## Using Cloud Sync Task Restore
-To create a new cloud sync task that uses the same options but reverses the data transfer, select <i class="material-icons" aria-hidden="true" title="Restore">history</i> for an existing cloud sync on the **Data Protection** page.
+To create a new cloud sync task that uses the same options but reverses the data transfer, click the vertical ellipses <span class="material-icons">more_vert</span> on an existing cloud sync task on the **Data Protection** page and select <i class="material-icons" aria-hidden="true" title="Restore">history</i> **Restore**.
 The **Restore Cloud Sync Task** window opens.
 
 {{< trueimage src="/images/SCALE/DataProtection/RestoreCloudSyncTaskWindow.png" alt="Cloud Sync Restore" id="Cloud Sync Restore" >}}

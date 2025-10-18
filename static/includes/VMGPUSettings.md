@@ -4,8 +4,8 @@
 {{< truetable >}}
 | Setting | Description |
 |---------|-------------|
-| **Hide from MSR** | Select to enable the VM to hide the GPU from the Microsoft Reserved Partition (MSR). |
-| **Ensure Display Device** | Select to ensure that the guest always has access to a video device. Required for headless installations like Ubuntu server for the guest to operate properly. Leave the checkbox clear for cases where you want to use a graphic processing unit (GPU) passthrough without adding a display device. |
-| **GPUs** | Select a physical GPU on your system from the dropdown list to use for the VM. |
+| **Hide from MSR** | Hides the GPU from the model-specific registers (MSRs). MSRs are the low-level CPU registers that enable the hardware features necessary for GPU virtualization to work properly. They control processor features and behaviors, store configuration settings, provide hardware information, and enable/disable specific GPU capabilities. In GPU passthrough configurations, MSRs control PCIe settings for direct GPU access. VMware ESXi uses MSRs for vGPU configuration, Proxmox/QEMU MSRs enable GPU passthrough, and Hyper-V MSRs control RemoteFX/GPU-P features. |
+| **Ensure Display Device** | Ensures the guest always has access to a video device. For headless installations like an Ubuntu server, this is required for the guest to operate properly. However, for cases where a consumer wants to use GPU passthrough and does not want a display device added, do not enable this option. |
+| **GPUs** | Sets the GPU to the option selected on the dropdown list. |
 {{< /truetable >}}
 {{< /expand >}}

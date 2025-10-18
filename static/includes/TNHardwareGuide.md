@@ -12,7 +12,8 @@ From repurposed systems to highly custom builds, the fundamental freedom of True
 
 The TrueNAS installer recommends 8 GB of RAM.
 TrueNAS installs, runs, and operates jails (in TrueNAS 13).
-It also hosts SMB shares and replicates TBs of data with less. iXsystems recommends the above for better performance and fewer issues.
+It also hosts SMB shares and replicates TBs of data with less.
+The TrueNAS team recommends the above for better performance and fewer issues.
 
 You do not need an SSD boot device, but we discourage using a spinner or a USB stick.
 We do not recommend installing TrueNAS on a single disk or striped pool unless you have a good reason to do so.
@@ -27,7 +28,7 @@ For help building a system according to your unique performance, storage, and ne
 The heart of any storage system is the symbiotic pairing of the file system and physical storage devices.
 The ZFS file system in TrueNAS provides the [best available data protection of any file system at any cost](https://www.ixsystems.com/blog/openzfs-vs-the-competition/) and makes effective use of both spinning-disk and all-flash storage or a mix of the two.
 ZFS is prepared for the eventual failure of storage devices and is highly configurable to achieve the perfect balance of redundancy and performance to meet any storage goal.
-A properly configured TrueNAS system can tolerate multiple storage device failures and recreate its boot media with a copy of the [configuration file]({{< relref "ManageSysConfigSCALE.md" >}}).
+A properly configured TrueNAS system can tolerate multiple storage device failures and recreate its boot media with a copy of the [configuration file]({{< ref "ManageSysConfigSCALE" >}}).
 
 ### Storage Device Quantities
 
@@ -55,13 +56,13 @@ Drive vendors, likely tired of honoring warranties for failed desktop drives use
 NAS drives achieved fame from the original Western Digital (WD) Red™ drives with [Conventional Magnetic Recording (CMR)](https://en.wikipedia.org/wiki/Perpendicular_recording) technology (now called WD Red Plus).
 Western Digital designed the WD Red™ Plus NAS drives (non-SMR) for systems with up to 8 hard drives, the [WD Red™ Pro](https://www.westerndigital.com/products/internal-drives/wd-red-pro-sata-hdd) for systems with up to 16 drives, and the [WD UltraStar™](https://www.westerndigital.com/products/data-center-platforms) for systems beyond 16 drives.
 
-The iXsystems Community Forum prefers WD drives for TrueNAS builds due to their exceptional quality and reliability.
+The TrueNAS Community prefers WD drives for TrueNAS builds due to their exceptional quality and reliability.
 All TrueNAS Minis ship with WD Red™ Plus drives unless requested otherwise.
 
 {{< hint type=warning title="TrueNAS and SMR Drives" >}}  
 Drive manufacturers produce SATA NAS disks that use either CMR or [Shingled Magnetic Recording (SMR)](https://en.wikipedia.org/wiki/Shingled_magnetic_recording) technology.  
 SMR drives offer greater storage density compared to their CMR equivalents.
-However, due to slower write and overwrite performance (rewriting over existing data) and the potential for instability or even data loss during resilver operations, iXsystems [does not recommend]({{< relref "/hardware/notices/wdsmr.md" >}}) using SMR drives with TrueNAS or ZFS in general.  
+However, due to slower write and overwrite performance (rewriting over existing data) and the potential for instability or even data loss during resilver operations, the TrueNAS team [does not recommend]({{< ref "/hardware/notices/wdsmr" >}}) using SMR drives with TrueNAS or ZFS in general.  
 See also: [WD Red SMR vs CMR Tested: Avoid Red SMR](https://www.servethehome.com/wd-red-smr-vs-cmr-tested-avoid-red-smr/) and [We put Western Digital’s dreaded SMR Red drive to the test](https://arstechnica.com/gadgets/2020/06/western-digitals-smr-disks-arent-great-but-theyre-not-garbage/).  
 
 Consult your drive manufacturer, such as [Western Digital](https://support-en.wd.com/app/answers/detailweb/a_id/50697/~/steps-to-determine-if-an-internal-drive-uses-cmr-or-smr-technology) or [Seagate](https://www.seagate.com/products/cmr-smr-list/), to determine whether a disk uses CMR or SMR technology.  
@@ -154,7 +155,7 @@ For example, a 480 GB L2ARC filled with 4KiB blocks needs more than 10GiB of met
 {{< /expand >}}
 
 {{< expand "Self Encrypting Drives" "v" >}}
-TrueNAS supports two forms of data encryption at rest to achieve privacy and compliance objectives: [native ZFS encryption]({{< relref "EncryptionSCALE.md" >}}) and [self-encrypting drives (SEDs)]({{< relref "SEDScale.md" >}}).
+TrueNAS supports two forms of data encryption at rest to achieve privacy and compliance objectives: [native ZFS encryption]({{< ref "EncryptionSCALE" >}}) and [self-encrypting drives (SEDs)]({{< ref "SEDScale" >}}).
 SEDs do not experience the performance overhead introduced by software partition encryption but are not as readily available as non-SED drives (and thus can cost a little more).
 {{< /expand >}}
 
@@ -216,7 +217,7 @@ Subject it to as close to a real-world workload as possible to reveal individual
 Be cautious of used drives, as vendors might not be honest or informed about their age and health.
 Verify vendors have not recertified drives by checking the hours using `smartctl(8)` for all new drives.
 A drive vendor might also zero the hours of a drive during recertification, masking the drive age.
-iXsystems tests all storage devices it sells for at least 48 hours before shipment.
+The TrueNAS team tests all storage devices it sells for at least 48 hours before shipment.
 
 ### Storage Controllers
 
@@ -391,7 +392,7 @@ The network in Network Attached Storage is as important as storage, but the topi
 Higher-band hardware is becoming more accessible as the hardware development pace increases and enterprises upgrade more quickly.
 Home labs can now deploy and use 40 GB and higher networking components. Home users are now discovering the same issues and problems with these higher speeds found by Enterprise customers.
 
-iXsystems recommends using optical fiber over *direct attached copper* (DAC) cables for the high-speed interconnects listed below:
+Use optical fiber over *direct attached copper* (DAC) cables for the high-speed interconnects listed below:
 
 * 10Gb NICs: SFP+ connectors
 * 25Gb NICs: SFP28 connectors
@@ -400,7 +401,7 @@ iXsystems recommends using optical fiber over *direct attached copper* (DAC) cab
 * 200Gb NICs: QSFP56 connectors
 * 400Gb NICs: QSFP-DD connectors
 
-iXsystems also recommends using optical fiber for any transceiver form factors mentioned when using fiber channels.
+Use optical fiber for any transceiver form factors mentioned when using fiber channels.
 Direct attached copper (DAC) cables can create interoperability issues between the NIC, cable, and switch.
 
 ## Virtualized TrueNAS

@@ -14,7 +14,7 @@ Developer mode is for developers only.
 Users that enable this functionality will not receive support on any issues submitted to iXsystems.
 
 Only enable when you are comfortable with debugging and resolving all issues encountered on the system.
-Never enable on a system that has production storage and workloads.
+Never enable it on a system that has production storage and workloads.
 {{< /hint >}}
 
 TrueNAS is an Open Source Storage appliance, not a standard Linux operating system (OS) that allows customization of the OS environment.
@@ -38,3 +38,19 @@ Run the `install-dev-tools` command.
 
 Running `install-dev-tools` removes the default TrueNAS read-only protections and installs a variety of tools needed for development environments on TrueNAS.
 These changes do not persist across updates and `install-dev-tools` must be re-run after every system update.
+
+## Troubleshooting
+
+{{< hint type=note >}}
+`install-dev-tools` is a developer-focused option that might not work in scenarios beyond those intended by TrueNAS developers, such as modified installations or deployments that use non-default settings.
+{{< /hint >}}
+
+Users with NVIDIA GPU drivers installed cannot enable developer mode while the NVIDIA kernel module is mounted.
+Running `install-dev-tools` in this state results in the following error:  
+```
+/usr is currently provided by a readonly systemd system extension.
+This may occur if nvidia module support is enabled. System extensions
+must be disabled prior to disabling rootfs protection.
+```
+This happens because the NVIDIA drivers are overlaid onto `/usr` via `systemd-sysext`, making it read-only by design.
+To resolve the issue, unmerge `systemd-sysext`, run `install-dev-tools`, then merge system extensions again.

@@ -19,7 +19,7 @@ Click **View More** to view additional results, if needed.
 ### Navigating Results
 
 Select a screen result under **UI** to go to the matching screen within the TrueNAS UI.
-For example, select **Shares <i class="material-icons" aria-hidden="true" title="Arrow Right">arrow_right_alt</i> SMB** to go to the [**SMB**]({{< relref "SMBSharesScreens.md" >}}) screen.
+For example, select **Shares <i class="material-icons" aria-hidden="true" title="Arrow Right">arrow_right_alt</i> SMB** to go to the [**SMB**]({{< ref "SMBSharesScreens" >}}) screen.
 
 {{< trueimage src="/images/SCALE/Dashboard/GlobalSearchResult.png" alt="Global Search Result - Screen" id="Global Search Result - Screen" >}}
 
@@ -28,7 +28,7 @@ For example, select **Shares <i class="material-icons" aria-hidden="true" title=
 
 {{< trueimage src="/images/SCALE/Dashboard/GlobalSearchElementResult.png" alt="Global Search Result - Element" id="Global Search Result - Element" >}}
 
-TrueNAS indicates the selected element with an arrow.
+TrueNAS indicates the selected element with a glow effect.
 
 ## Searching TrueNAS Documentation
 

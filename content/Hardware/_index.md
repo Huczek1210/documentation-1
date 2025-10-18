@@ -4,18 +4,17 @@ geekdocCollapseSection: true
 weight: 40
 aliases:
  - /hardware/stencils/
- - /images/Hardware/TrueNASStencilsPreview.png
 cascade:
   - _target:
     related: false
 ---
 
-iXsystems sells a variety of hardware solutions that are rigorously qualified and built to maximize TrueNAS performance.
+TrueNAS has a variety of Enterprise hardware solutions that are rigorously qualified and built to maximize TrueNAS performance.
 Each line of products are tailored to meet your specific needs, whether you are a home user, Small and Medium Enterprise (SME), or extended business environment.
 
-To help visualize the system placement in a networking environment, iXsystems provides Visio stencils for each system on their respective pages, but you can also download a comprehensive stencil pack below.
+To help visualize the system placement in a networking environment, the TrueNAS team provides Visio stencils for each system on their respective pages, but you can also download a comprehensive stencil pack below.
 
-Legacy documentation for discontinued iXsystems products is also archived here.
+Legacy documentation for discontinued TrueNAS products is also archived here.
 
 Click a Product card to see all documentation related to that series.
 
@@ -40,12 +39,12 @@ descr="TrueNAS Minis are compact and support all TrueNAS features." >}}
 descr="Increase TrueNAS storage capacity with different JBODs." >}}
 
 {{< imagecard image="/images/Hardware/Legacy/Legacy.png" title="Legacy" link="/hardware/legacyhardware/"
-descr="Archived documentation about discontinued iXsystems hardware products." >}}
+descr="Archived documentation about discontinued TrueNAS hardware products." >}}
 
 {{< imagecard image="/images/Hardware/Notices.png" title="Notices" link="/hardware/notices/"
 descr="Product announcements, unspecific FAQs, and articles about hardware components." >}}
 
-{{< imagecard image="/images/Hardware/FullStencilPack.png" title="TrueNAS Full Stencil Pack" link="https://www.truenas.com/docs/files/truenascollection.vssx"
+{{< imagecard image="/images/Hardware/FullStencilPack.png" title="TrueNAS Full Stencil Pack" link="https://www.truenas.com/docs/files/truenasfullstencilpack.vssx"
 descr="Download all TrueNAS stencils to diagram your hardware configuration in Microsoft Visio." >}}
 
 </div>

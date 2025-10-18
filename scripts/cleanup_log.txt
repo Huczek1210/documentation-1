@@ -1,3 +1,677 @@
+Process time: 2025-09-18 13:31:25
+Initiated by: Dan Pizappi
+
+1418 files reviewed.
+51 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\ReleaseScheduleWarning.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\TasksSMARTAddFields.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\TrueNAS_Community_Edition.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\TrueNAS_Enterprise.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\ACMEDNSAuthenticatorWidgetNoAuthtenticators.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCACertificateOptionsRSAType.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCACertificateSubject.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAConfirmOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAExtraConstraintsAllExpanded.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAIdentifierAndType.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAImportCA.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateAuthorityScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateCertifcateSubject.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateCertificateOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateConfirmOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateExtraConstraintsInternalCert.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateIdentifierAndTypeInternalCert.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateImport.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateImportCertificateOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCSRCertificateOptionsRSAType.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCSRExtraConstraintsAllExpanded.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorDigitalocean.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorOVH.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorRoute53.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorShell.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateAuthoritiesWidgetNoCAs.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateSigningRequestWidgetWithCSR.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\UsersScreenWIPBasicSearch.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\UsersScreenWIPUserTable.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionAddSMARTTestSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionSMARTTestsListSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionSMARTTestWidgetSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DeleteSMARTTest.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksListNoTasks.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksWidgetNoTasks.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\SmartTestsWidgetNoTests.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\AddFusionPoolVDEV.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDashDisksButtonSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDisksManualTestSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDisksSelectedSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\ApplyPendingUdates.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\RestartAfterUpdate.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SMARTSystemServicesSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SystemUpdateScreenAvailableUpdate.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMInstallMedia.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMMemory.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMNetwork.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMOperSys.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateVirtualMachineDisks.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\DeleteVirtualMachine.png
+
+---------------------------------------------------
+
+Process time: 2025-09-23 11:12:18
+Initiated by: 
+
+1440 files reviewed.
+63 files deleted.
+The following files were deleted:
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\containers-vms.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\InstanceImageFilenames.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\InstanceSecureBootProcedure.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\InstanceVNCProcedure.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\InstanceVNCSettings.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\ReleaseScheduleWarning.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\includes\TasksSMARTAddFields.md
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\TrueNAS_Community_Edition.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\TrueNAS_Enterprise.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\ACMEDNSAuthenticatorWidgetNoAuthtenticators.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCACertificateOptionsRSAType.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCACertificateSubject.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAConfirmOptions.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAExtraConstraintsAllExpanded.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAIdentifierAndType.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCAImportCA.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateAuthorityScreen.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateCertifcateSubject.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateCertificateOptions.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateConfirmOptions.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateExtraConstraintsInternalCert.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateIdentifierAndTypeInternalCert.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateImport.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCertificateImportCertificateOptions.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCSRCertificateOptionsRSAType.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddCSRExtraConstraintsAllExpanded.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorDigitalocean.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorOVH.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorRoute53.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\AddDNSAuthenticatorShell.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateAuthoritiesWidgetNoCAs.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateSigningRequestWidgetWithCSR.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\UsersScreenWIPBasicSearch.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Credentials\UsersScreenWIPUserTable.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionAddSMARTTestSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionSMARTTestsListSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DataProtectionSMARTTestWidgetSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\DeleteSMARTTest.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksListNoTasks.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksWidget.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ReplicationTasksWidgetNoTasks.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\DataProtection\SmartTestsWidgetNoTests.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Shares\EditSMBPurpose.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Storage\AddFusionPoolVDEV.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDashDisksButtonSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDisksManualTestSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDisksSelectedSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\ApplyPendingUdates.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\GeneralSettingsScreen.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\ProactiveSupporForm.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\RestartAfterUpdate.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SMARTSystemServicesSCALE.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SupportWidgetHA.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SystemGeneralAddNTPServer.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\SystemUpdateScreenAvailableUpdate.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMInstallMedia.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMMemory.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMNetwork.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMOperSys.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateVirtualMachineDisks.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\DeleteVirtualMachine.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\EditSecurity.png
+C:\Users\Linzi M\Documents\GitHub\documentation\static\images\SCALE\Virtualization\EditVNC.png
+
+----------------------------------------
+Process time: 2025-08-25 11:07:29
+Initiated by: Dan Pizappi
+
+1430 files reviewed.
+69 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\AppsHostIP.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\ResilverPriority.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\ResilverPrioritySetWhen.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\SMBPurposeOtherOptions.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\SMBPurposePresets.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Sharing\SharingSMBScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\AddScrubTaskSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ManualSMARTTestDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ManualSMARTTestSupportDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\PriorityResilveringForm.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\resilverscrubedit.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\ScrubPoolDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\scrubtaskpriority.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\SMARTTestResultsofDiskExpanded.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\AddZvolEncryptionOptionsKey.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetDetailsWidgetChildDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetDetailsWidgetRootDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetSpaceManagementWidgetRootDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetsScreenAfterAddingAPool.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetsScreenBeforeAddingAPool.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DeleteDatasetChildDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DeleteDatasetChildUsingAService.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DeleteDatasetParentDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DetailstWidgetSystemDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DetailsWidgetChildDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\PermissionsWidgetOwnerNSFv4Options.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\PermissionsWidgetParentDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\PermissionsWidgetRootDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\RolesWidgetRootDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\ZFSEncryptionWidgetChildDatasetUnlocked.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\ZFSEncryptionWidgetWithGoToEncryptionRoot.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceAliases.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceLinkAggFailoverSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceLinkAggLoadbalanceSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceLinkAggregationSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceNicDeviceOtherSettingsSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceNicDeviceSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceOtherSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfacePanel.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\AddInterfaceVLANType.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\EditInterfaceAddAliasesHA.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\EditInterfaceClearDHCP.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\EditInterfaceNicDeviceSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\GlobalConfigAllowSpecificServiceOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\NetworkInterfacesBridgeSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Network\NetworkInterfacesNoIPSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\AddNFSAdvancedOptionsAccessSettings (2).png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\AddSMBAdvancedOtherSettingsLegacyShare.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\AddSMBAdvancedOtherSettingsTimeMachineShare.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\AddSMBAdvancedSettingsExternalShare.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\AddSMBAdvancedSettingsMultiProtocolShare.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIAuthorizedAccessScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIExtenstScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIInitiatosrScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\NVMe-oFScreenWithSubsystem.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DeviceDiskInfoWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DeviceDiskSMARTInfoWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DevicesDiskHardwareDiskEncryptionWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DevicesDiskZFSInfoWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DevicesExtendVDEVDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DevicesScreenDataVdevsUnexpanded.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\DevicesVDEVZFSInfoWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\ManageSEDPasswordDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\SMARTTestResultsExpandedAfterUnselectAll.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDashboardTopologyWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\StorageDashboardZFSHealthWidgetWithDedup.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Storage\VDEVScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMSaveNetworkChanges.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMTestNetworkChanges.png
+
+----------------------------------------
+Process time: 2025-07-25 10:10:41
+Initiated by: Dan Pizappi
+
+1355 files reviewed.
+18 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\AppsSupportTimeline.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\ExpansionShelves\ExpansionStencil.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\ExpansionShelves\SASConnections.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\RSeries\R30BSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstalledAppsBulkActionUpgradeDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIAuthorizedAccessScreenFC.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIExtentsScreenFC.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIFibreChannelPortsScreen.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIInitiatorsScreenFC.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSIPortalsScreenFC.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\iSCSITargetsScreensFC.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\SMBMultichannelValidateWindows1.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Shares\SMBMultichannelValidateWindows2.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateInstancePCI.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateInstanceSecurity.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateInstanceVNC.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateVMCPUandMemory.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\InstanceConfigurationVM.png
+
+----------------------------------------
+Process time: 2025-05-15 16:24:05
+Initiated by: Dan Pizappi
+
+1316 files reviewed.
+3 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\25.04UpgradeMethods.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\HostPathACL.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardDefaultPorts.md
+
+----------------------------------------
+Process time: 2025-05-12 14:55:04
+Initiated by: Dan Pizappi
+
+1655 files reviewed.
+341 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\_index.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\CommunityAppsLegacy.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\MakeDirectory.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AddingAppCertificate.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppCatalogs.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\Apps-Community-Support.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsBestPractices.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsCustomApp.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsDatasets.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsDirectoryService.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsIntro.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsManageImages.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\AppsPool.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginAddAppCertificate.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginAddAppDatasets.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginAddAppDatasetsProcedure.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginAddNewAppUser.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginRunAsUser.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\BeforeYouBeginStableApps.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\CollaboraNextcloudConnection.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\CommunityApp.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\CommunityPleaseExpand.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\CommunityPleaseImprove.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\CustomAppIntro.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\EnterpriseApps.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallAppsStorageConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallAppsStorageConfig2.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardAdvancedDNSSettings.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardAppNameAndVersion.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardCertificateSettings.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardEnvironVariablesSettings.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardGPUPassthrough.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardHostNetworkSettings.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardLabelsConfiguration.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardPostgresStorageAutomaticPermissions.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardResourceConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardSettingsOverview.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardStorageACLConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardStorageSMBOption.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardStorageTemporaryAndTmpfs.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardTimezoneSetting.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\InstallWizardUserAndGroupConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\LocateAndOpenInstallWizard.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOCompleteInstall.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnableDistributedModeInfo.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIoEnterpriseConfigSettings.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIoEnterpriseFinishConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnterpriseMinIOConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnterpriseMultiModeConfigMNMD.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnterpriseMultiModeStorageConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnterpriseNetworkConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOEnterpriseStorageConfig.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOInstallArgAndEnvironVarSteps.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MinIOPortsAndLogSearch.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\MultipleAppInstancesAndNaming.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\SyncthingArticleIntro.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\SyncthingCompleteInstall.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\apps\SyncthingWebPortalInfo.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Contribute\AppsFrontMatterExample.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Accounts\AddUserNamedCORE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\DirectoryServices\DirectoryServicesNIS.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Services\NFSServicesScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Services\ServicesDynamicDNSOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Sharing\SharingSMBAdvancedOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Sharing\SharingWebdavAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Storage\StorageAllPoolsDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Storage\StoragePoolsAddDataset2.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\CloudCredentialsAddCredentials.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\SystemCloudCredentialsOAuthLogin.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\SystemNTPServersAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Tasks\RsyncConfigure.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Tasks\TasksCloudSyncAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+BSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+OOBM.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+SOV.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AddEnvironmentVariable.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AddHomeAssistantStorageConfigs.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppPiHoleApplicationNameAndVersion.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppPiHoleConfigurationSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppPiHoleDNSAndResourceLimitsSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppPiHoleNetworkingSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppPiHoleStorageSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsAddNextcloudDatasets.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsChooseAPoolForApps.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsInformationDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsPiHoleRunning.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsSettingsChoosePool.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraAppRunning.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraConnectToDS-Operator.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraDS-OperatorAddaDS-SystemWindow.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraDS-OperatorAddLicenseServer.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AsigraNewCustomerInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AvailableApplicationsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaAppInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaAppWorkloadsWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaChoosPodforShell.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaGUISetupInstallOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaSetupGUIChooseLocation.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaShellShowMnemonicSeed.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ChiaWebPortalGUI.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareAddApplication.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareAddPolicy.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareCreateAdditionalRules.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareCreateToken.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflaredApplicationInstall.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareTunnelHostname.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareTunnelOverview.jpg
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareTunnelStateHealthy.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CloudflareTunnelTLSSetting.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraDashboard.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraInformationScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraInstallDictionaries.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraInstallExtraParameters.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraInstallStorage.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CollaboraSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ConvertToCustomAppConfirm.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ConvertToCustomAppMenu.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CreateDockerRegistryOther.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CustomAppDetails.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\CustomAppEditWindow.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ddns-updaterDNSProviderConfigAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DdnsAppDetails.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DdnsUpdaterNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DdnsUpdaterResourceConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DdnsUpdaterStorageConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DdnsUpdaterUserGroupConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverAppsScreenFilterOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenChiaApp.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenCollabora.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenHomeAssistant.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenLocateAppWidgets.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenLocatePhotoprism.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverScreenMinIOAppWidgets.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiscoverSyncthingAppWidgets.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiskoverAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiskoverAppRunning.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DiskoverSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\DS-OperatorInitializationOption.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EditChiaConfigAddEnvironmentVariable.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ElasticSearchDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ElasticSearchWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EmbyAppRunning.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EmbyCreateNewUserAcctScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EmbyDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EmbySetupMediaLibrariesScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\EmbySignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\FindDdnsUpdaterApp.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\HomeAssistantAddDevices.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\HomeAssistantDashboard.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\HomeAssistantInformationScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\HomeAssistantSignUpScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ImmichAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ImmichInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ImmichWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\ImmichWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAppLabels.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAppResourceConfigurationGPU.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAppStorageConfigSMBOption.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAppStorageConfigurationACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAsigraResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAsigraScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAsigraStorageConfigPostgresDataAutoPerms.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallAsigraStorageDataACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaConfigFullNodeService.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaConfigHarvesterService.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaStorageConfigAdditionalVolsHostPath.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaStorageConfigHostPaths.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallChiaStorageConfigixVolume.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallCollaboraResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallCollaboraScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\Installddns-updaterScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallDiskOverResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallDiskoverScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallDiskoverStorageConfigACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallElasticSearchResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallElasticSearchScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallElasticSearchStorageDataACLandACE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallEmbyLabelsConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallEmbyResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallEmbyScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallEmbyStorageConfigHostPathACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallHomeAssistantResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallHomeAssistantScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichResourceConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichStorageConfigHostPath.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallImmichStorageConfigixVolume.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinAdditionalStorage.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinResourceConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinStorageConfigHostPath.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinStorageConfigixVolume.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallJellyfinUserGroupSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOAddDataHostPathACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOAddMultiModeConfigExample.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOAddMultiModeSNMDorMNMD.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinioDistributedModeAddStorage.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinioEnableDistributedMode.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOEnterprise.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOEnterpriseMinioConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOEnterpriseResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOEnterpriseStorageConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOEnterpriseStorageConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIONetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIONetworkConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinioS3Screen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallMinIOUserAndGroupSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNetdataConfigAddEnvironmentVariable.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNetdataResourceLimitsEnablePod.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNetdataScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNetdataStorageConfigACLandACE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudConfig1.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudConfig2.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudConfigAPTPackageOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudConfigCronSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudStorageAppDataACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPhotoprismResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPhotoprismScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPhotoprismStorageConfigDataACLandACE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexAddStorageTemporaryDirectorySettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexAddStorageTmpfsDirectorySetting.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexConfig1.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexConfigAddDevice.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexResourcesConfiguration.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexStorageConfigDataACLandACE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexStorageLogsTemporaryAndTranscodeTmpfsSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexUserAndGroupConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusConfigAddArgEnvVar.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusResourceConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusStorageConfigHostPath.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPrometheusStorageConfigixVolume.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRemoteAssist.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRsyncDAddAllowDenyHostsAuxParams.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRsyncDAddAuxParameters.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRsyncDAddModuleConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRsyncDaemonScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallRsyncDNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallStojConfigurationScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallStorjAppScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallStorjNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallStorjStorageACLEntry.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingEnterpriseNetworkSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingEnterpriseResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingEnterpriseScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingEnterpriseUserAndGroupConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingStableNetworking.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingStorageConfigACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallSyncthingStorageHomeACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallTFTPServerAddTFTPConfigEnvironVariables.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallTFTPServerAppNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallTFTPServerAppScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallTFTPServerAppStorageHostPath.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVAddBasicAuth.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVAppNetworkConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVAppScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVNetworkConfigEnableHTTPS.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVResourcesConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVStorageConfigAddShare.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWebDAVUserAndGroupConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallWizardPostgresDatasetAutomaticPermissions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\JellyfinAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\JellyfinInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\JellyfinWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\JellyfinWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\LocateStorjAppWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\MinIOAppInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\MinIOEnterpriseDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\MinIOEnterpriseInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\MinIOS3AppInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NetdataAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NetdataInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NetdataNodesDashboard.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NetdataSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NetdataWebPortalLocalDashboard.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NextcloudDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\NextcloudSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PhotoprismAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PhotoprismInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PhotoprismMainDashboard.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PhotoprismSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PlexAppWebPortalSignInScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PlexDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PrometheusAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PrometheusInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\PrometheusWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\RsyncAppInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\RsyncAppWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\RsyncDAppInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\RsyncdResourceConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\StorjAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingAppDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingEnterpriseAppDeployed.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingEnterpriseDetailsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingUIActionsMenu.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingWebPortalAdvancedConfig.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingWebPortalFolderExpanded.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SyncthingWebPortalForTrueNAS.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\TFTPServerAppInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\TFTPServerAppInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\TFTPServerAppWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WebDAVAppInstalled.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WebDAVInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WebDAVwidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyAppConfigSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyAppInfoScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyAppInstalScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyAppStorageEnableCustomHostPathSettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyAppWidget.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyInstallAddDNSOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyInstallAddResourceLimits.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyInstallAppNetworking.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyInstallAppStorageAddExtraHostPaths.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\WGEasyWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateImportWizardSelectLocalMachine.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\CertificateOpenCertificateWindow.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Credentials\SelelectCertificateStore.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\AdvancedAddReplicationTaskGeneralTransportSSH+NETCAT.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Datasets\DatasetsDashboardStorjNodeNested.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Login\MinIOWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Login\PrometheusWebPortal.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Login\StorjHostaNode.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\JailmakerInitScriptCreate.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\RenameBootEnvironmentSCALE.png
+
+----------------------------------------
+Process time: 2025-05-09 10:56:55
+Initiated by: Dan Pizappi
+
+1655 files reviewed.
+20 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\_index.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Accounts\AddUserNamedCORE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\DirectoryServices\DirectoryServicesNIS.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Services\NFSServicesScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Services\ServicesDynamicDNSOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Sharing\SharingSMBAdvancedOptions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Sharing\SharingWebdavAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Storage\StorageAllPoolsDataset.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Storage\StoragePoolsAddDataset2.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\CloudCredentialsAddCredentials.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\SystemCloudCredentialsOAuthLogin.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\SystemNTPServersAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Tasks\RsyncConfigure.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\Tasks\TasksCloudSyncAdd.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+BSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+OOBM.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\Minis\MiniX+SOV.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallPlexStorageConfigDataACLandACE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\DataProtection\AdvancedAddReplicationTaskGeneralTransportSSH+NETCAT.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\SystemSettings\RenameBootEnvironmentSCALE.png
+
+----------------------------------------
+Process time: 2025-04-14 11:57:10
+Initiated by: Dan Pizappi
+
+1666 files reviewed.
+23 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Reporting\NetdataCredentialsDialog.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Reporting\NetdataUI.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMGPU.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMInstallMedia.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMMemory.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMNetwork.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\AddVMOperSys.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateInstanceScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateInstanceZvol.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateVirtualMachineDisks.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\CreateVMWInstallMediaUploadSCALE.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\DeleteVirtualMachine.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\EditDeviceDiskScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\InstancesConfigurationMenu.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\ScaleDebianVMOsSystem.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VirtualMachinesScreenwithVMDetails.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDeviceCDROM.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDeviceDisk.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDeviceDisplay.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDeviceNIC.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDevicePCIpass.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMAddDeviceUSBpass.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Virtualization\VMDevicesListed.png
+
+----------------------------------------
+Process time: 2025-03-21 10:10:58
+Initiated by: Dan Pizappi
+
+1658 files reviewed.
+14 files deleted.
+The following files were deleted:
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\25.04FeatureList.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\includes\ThirdPartyCatalogs.md
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\truenas_enterprise-logo-full-color-rgb.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\TrueNAS_Open_Enterprise_Storage.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\CORE\System\Login2FA.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\ExpansionShelves\ES12BSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\RSeries\R50BSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\Hardware\RSeries\RSeriesBSG.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AddNextcloudParentDatasetNetdataUserACL.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AddPostgres_DataACLPermissions.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\AppsTrainSettingsScreen.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\InstallNextcloudStorageDataACLandACESettings.png
+C:\Users\iXUser\Documents\GitHub\documentation\static\images\SCALE\Apps\SetPostgres_dataACLtoPOSIX.png
+
+----------------------------------------
 Process time: 2025-02-14 16:32:36
 Initiated by: Dan Pizappi
 

@@ -33,20 +33,34 @@ Use the **Password Login Groups** and **Allow Password Authentication** settings
 Click **Save**. Select **Start Automatically** and enable the SSH service.
 
 ## Configuring Advanced SSH Settings
+
 If your configuration requires more advanced settings, click **Advanced Settings**.
 The basic options continue to display above the **Advanced Settings** screen.
 Configure the options as needed to match your network environment.
 
 {{< trueimage src="/images/SCALE/SystemSettings/SSHServicesAdvancedSettings.png" alt="SSH Advanced Options" id="SSH Advanced Options" >}}
 
-These **Auxiliary Parameters** can be useful when troubleshooting SSH connectivity issues:
+Select specific network interfaces from **Bind Interfaces** for SSH to listen on, or deselect all options to have SSH listen on all interfaces (default).
+Select **Compress Connections** to reduce latency over slow networks.
 
-* Increase the `ClientAliveInterval` if SSH connections tend to drop.
-* Increase the `MaxStartups` value (**10** is default) when you need more concurrent SSH connections.
+Configure SFTP logging by selecting the appropriate **SFTP Log Level** and **SFTP Log Facility**.
+
+Select additional cipher options in **Weak Ciphers** if needed.
+**None** allows unencrypted SSH connections while **AES128-CBC** allows the 128-bit Advanced Encryption Standard cipher.
+These ciphers are security vulnerabilities and should only be used in secure network environments.
+
+{{< include file="/static/includes/auxiliary-parameters-caution.md" >}}
+
+Add sshd_config options not covered by other settings in **Auxiliary Parameters**.
+Enter one option per line.
+Parameters are case-sensitive.
+
+{{< include file="/static/includes/auxiliary-parameters-ssh.md" >}}
 
 Remember to enable the SSH service in **System > Services** after making changes.
 
-Create and store SSH connections and keypairs to allow SSH access in **Credentials > Backup Credentials** or by editing an administrative user account. See [Adding SSH Credentials]({{< relref "AddSSHConnectionKeyPair.md" >}}) for more information.
+Create and store SSH connections and keypairs to allow SSH access in **Credentials > Backup Credentials** or by editing an administrative user account.
+See [Adding SSH Credentials]({{< ref "AddSSHConnectionKeyPair" >}}) for more information.
 
 ## Using SSH File Transfer Protocol (SFTP)
 
@@ -59,7 +73,9 @@ Go to **System > Services**, find the **SSH** entry, and click the <i class="mat
 
 Select **Allow Password Authentication**.
 
-Go to **Credentials > Users**. Click anywhere on the row of the user you want to access SSH to expand the user entry, then click **Edit** to open the **Edit User** configuration screen. Make sure that **SSH password login enabled** is selected. See [Managing Users]({{< relref "managelocalusersscale.md" >}}) for more information.
+Go to **Credentials > Users**. Click anywhere on the row of the user you want to access SSH to expand the user entry, then click **Edit** to open the **Edit User** configuration screen. Make sure that **SSH password login enabled** is selected. See [Managing Users]({{< ref "manageusers" >}}) for more information.
+
+{{< include file="/static/includes/SSHUserValidationCheck.md" >}}
 
 {{< hint type=danger title="Security Concern" >}}
 SSH with root is a security vulnerability. It allows users to fully control the NAS remotely with a terminal instead of providing SFTP transfer access.
@@ -71,16 +87,27 @@ Review the remaining options and configure them according to your environment or
 
 Remember to enable the SSH service in **System > Services** after making changes.
 
-Create and store SSH connections and keypairs to allow SSH access in **Credentials > Backup Credentials** or by editing an administrative user account. See [Adding SSH Credentials]({{< relref "AddSSHConnectionKeyPair.md" >}}) for more information.
+Create and store SSH connections and keypairs to allow SSH access in **Credentials > Backup Credentials** or by editing an administrative user account. See [Adding SSH Credentials]({{< ref "AddSSHConnectionKeyPair" >}}) for more information.
 
-TrueNAS shows an error if users activate Global 2FA (Two-Factor Authentication) and attempt to enable password-based SSH authentication without a 2FA token. See [Managing Global 2FA](https://www.truenas.com/docs/scale/scaletutorials/systemsettings/advanced/manageglobal2fascale/) for more information.
+### SSH and Two-Factor Authentication
+
+When global 2FA is enabled with the SSH 2FA option, two-factor authentication applies only to users who meet all of the following conditions:
+
+* The user configured a 2FA secret
+* The user is using password-based SSH authentication (not key-based)
+* Both global 2FA and SSH 2FA options are enabled in **System > Advanced Settings**
+
+Users without a configured 2FA secret can use password-based SSH without providing a 2FA code, even when global SSH 2FA is enabled.
+Key-based SSH authentication is not affected by 2FA settings.
+
+See [Managing Global 2FA](https://www.truenas.com/docs/scale/scaletutorials/systemsettings/advanced/manageglobal2fascale/) for more information.
 
 ### Using SFTP Connections
 
 Open an FTP client (like FileZilla) or command line.
 This article shows using FileZilla as an example.
 
-Using FileZilla, enter `SFTP://{TrueNAS IP} {username} {password} {port 22}`. Where {TrueNAS IP} is the IP address for your TrueNAS system, {username} is the administrator login user name, and {password} is the adminstrator password, and {port 22} to connect.
+Using FileZilla, enter `SFTP://{TrueNAS IP} {username} {password} {port 22}`. Where {TrueNAS IP} is the IP address for your TrueNAS system, {username} is the administrator login user name, and {password} is the administrator password, and {port 22} to connect.
 
 {{< hint type=important >}}
 SFTP does not offer chroot locking.

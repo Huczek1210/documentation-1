@@ -25,6 +25,11 @@ ZFS pool importing works for pools exported or disconnected from the current sys
 The import procedure only applies to disks with a ZFS storage pool.
 {{< /hint >}}
 
+{{< hint type=warning >}}
+TrueNAS supports pool imports using the WebUI or API only.
+Manual pool import via command line can cause unexpected behavior and system issues.
+{{< /hint >}}
+
 {{< expand "Do I need to do anything different with disks installed on a different system?" "v" >}}
 When physically installing ZFS pool disks from another system, use the `zpool export poolname` command in the Linux command line or a web interface equivalent to export the pool on that system.
 Shut down that system and move the drives to the TrueNAS system.
@@ -43,5 +48,5 @@ Select a pool from the **Pool** dropdown list, then click **Import**.
 GELI encryption is specific to FreeBSD so Linux-based TrueNAS cannot import GELI-encrypted pools.
 See the **GELI Pool Migrations** section in the TrueNAS 13.0 [Storage Encryption](https://www.truenas.com/docs/core/13.0/coretutorials/storage/pools/storageencryption/#geli-pool-migrations) article.
 
-The [Preparing to Migrate]({{< relref "MigratePrep.md" >}}) article provides information on what you can and cannot migrate and a checklist of actions to take before migrating from TrueNAS 13.0 (or 13.3 for community users) with GELI-encrypted pools to 24.04.
+The [Preparing to Migrate]({{< ref "MigratePrep" >}}) article provides information on what you can and cannot migrate and a checklist of actions to take before migrating from TrueNAS 13.0 (or 13.3 for community users) with GELI-encrypted pools to 24.04.
 {{< /expand >}}

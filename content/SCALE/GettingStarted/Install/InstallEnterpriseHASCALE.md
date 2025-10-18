@@ -19,7 +19,7 @@ keywords:
 
 {{< enterprise >}}
 Installing TrueNAS on High Availability (HA) systems is complicated and should be guided by Enterprise-level support.
-Contact iXsystems Support for assistance whenever attempting to install TrueNAS on Enterprise HA hardware.
+Contact TrueNAS Enterprise Support for assistance whenever attempting to install TrueNAS on Enterprise HA hardware.
 
 {{< expand "Contacting Support" "v" >}}
 {{< include file="/static/includes/iXsystemsSupportContact.md" >}}
@@ -40,7 +40,7 @@ TrueNAS includes features and functions to help with completing the configuratio
 
 ### Preparing for a Clean Install
 
-For a list of TrueNAS Enterprise (HA) preparation information, see [Preparing for TrueNAS UI Configuration (Enterprise)]({{< relref "InstallPrepEnterprise.md" >}}).
+For a list of TrueNAS Enterprise (HA) preparation information, see [Preparing for TrueNAS UI Configuration (Enterprise)]({{< ref "InstallPrepEnterprise" >}}).
 
 Have this information handy to complete this procedure:
 
@@ -48,7 +48,7 @@ Have this information handy to complete this procedure:
 * Other network information including domain name(s), and DNS server, default gateway, alias, or other static IP addresses.
 * The IPMI access addresses for each controller and the administration credentials for IPMI access to these addresses.
 * TrueNAS license file provided by iXsystems.
-* TrueNAS Storage Controller 1 (A) and 2 (B) serial numbers (refer to contracts or documentation provided with the system or contact iXsystems Support and provide your contract number).
+* TrueNAS Storage Controller 1 (A) and 2 (B) serial numbers (refer to contracts or documentation provided with the system or contact TrueNAS Enterprise Support and provide your contract number).
 
 {{< hint type=note >}}
 HA system controllers each have serial numbers, the lower number assigned is for controller 1 (e.g. of two controller serial numbers assigned *A1-12345* and *A1-12346*, the *A1-12345* is for controller 1 and *A1-12346* is for controller 2).
@@ -149,7 +149,7 @@ Use this process to install the <file>iso</file> file on both controller 1 and c
 
    c. Click **Save**, then **Mount**. You should see the <file>.iso</file> file under **Device 1** or the device name your IPMI configures.
 
-3. Return to the **Remote Control > iKVM/HTML5** window opened in step 2. Either use your keyboard or open the keyboard in the window then:
+4. Return to the **Remote Control > iKVM/HTML5** window opened in step 2. Either use your keyboard or open the keyboard in the window then:
 
    a. Type **8** to restart controller 1 (also repeat for controller 2), and type **y** to confirm and restart.
 
@@ -257,8 +257,8 @@ The controller 1 and 2 (or a and b) serial numbers display on the **Support** wi
 Create or import a storage pool from a backup. You must have at least one storage pool on controller 1.
 After saving the storage pool, controller 2 automatically restarts. Wait until it comes back online before syncing controller 1 with controller 2.
 
-For more information on how to create a new pool [click here]({{< relref "CreatePoolWizard.md" >}}).
-For more information on how to import a pool [click here]({{< relref "ImportPoolSCALE.md" >}}).
+For more information on how to create a new pool [click here]({{< ref "CreatePoolWizard" >}}).
+For more information on how to import a pool [click here]({{< ref "ImportPoolSCALE" >}}).
 
 ### Syncing Controller 1 and 2
 
@@ -284,7 +284,10 @@ Take note of this information.
 
 ### Troubleshooting HA Installation
 
+{{< include file="/static/includes/SCALEHADisableSTP.md" >}}
+
 If controller 2 comes online as the primary and controller 1 as the standby, you installed and configured the controllers incorrectly.
+
 1. Go to **System > Failover**, clear the **Default TrueNAS Controller** option, and click **Save**. The system restarts and fails over to the current standby controller (in this case, to controller 1).
 
 2. Log back into the UI with the VIP address. Go to **System > Failover** and select **Default TrueNAS Controller** to make controller 1 the primary controller.
